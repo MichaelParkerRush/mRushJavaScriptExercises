@@ -1,6 +1,6 @@
 /* Exercise # 1 */
 
-var txt1 = "Input some digits!";
+var txt1 = "Enter A Number!";
 
 var promptex1 = prompt(txt1);
 
@@ -14,11 +14,11 @@ console.log(outputex1)
 
 /* Exercise # 2 */
 
-var txt2_1 = "~Do you want to build a stri-ing?~"
+var txt2_1 = "Do you want to play?"
 
-var txt2_2 = "~Type out a word!~"
+var txt2_2 = "Enter a word."
 
-var txt2_3 = "~Do we need to make it longer?~"
+var txt2_3 = "Do you want to play again?"
 
 var promptex2_1 = prompt(txt2_1)
 
@@ -34,17 +34,17 @@ if (promptex2_1 == "yes") {
 
 /* Exercise # 3 */
 
-var txt3_1 = "Please assign me a designation.";
+var txt3_1 = "Please enter your name.";
 
-var txt3_2 = "Would you like me to introduce myself?";
+var txt3_2 = "Would you like to print your name?";
 
-var txt3_3 = "Do you need me to say that louder?";
+var txt3_3 = "Would you like to print this again?";
 
 var promptex3_1 = prompt(txt3_1);
 
 var promptex3_2 = prompt(txt3_2);
 
-var output3 = "Greetings human, my designation is "+promptex3_1;
+var output3 = "Hello. My name is "+promptex3_1;
 
 if (promptex3_2 == "yes") {
 	console.log(output3);
@@ -55,15 +55,15 @@ if (promptex3_2 == "yes") {
 
 /* Exercise # 4 */
 
-var txt4_1 = "What is the current time of day?"
+var txt4_1 = "What time of day is it?"
 
-var txt4_2 = "Many people partake of a meal known as breakfast in the morning. In some parts of the world, a typical breakfast would consist of eggs and toast."
+var txt4_2 = "Since it is morning, you should be eating breakfast. We suggest eggs and toast."
 
-var txt4_3 = "At midday, it is common for people to eat a meal referred to as lunch. A salad is an oft recommended choice for lunch."
+var txt4_3 = "Since it is noon, you should be eating lunch. We suggest a salad."
 
-var txt4_4 = "During the evening many households gather to consume nutrients together, a meal known as dinner. One of the most widely availible dinners combines some rice and chicken meat into a single meal."
+var txt4_4 = "Since it is evening, you should be eating dinner. We suggest chicken and rice."
 
-var txt4_5 = 'ERROR. INPUTS LIMITED. PLEASE INPUT ONE OF THE FOLLOWING WITHOUT QUOTATION MARKS: "morning" "noon" OR "evening" THANK YOU, AND HAVE A GOOD TIME.'
+var txt4_5 = "I'm sorry, my responses are limited. You must input the right information."
 
 var promptex4 = prompt(txt4_1)
 
